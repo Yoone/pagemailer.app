@@ -1,0 +1,182 @@
+<svg width="600" viewBox="0 0 560 360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Drop shadow filter -->
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="4" stdDeviation="3" flood-color="rgba(0,0,0,0.15)"/>
+    </filter>
+
+    <!-- Success checkmark animation -->
+    <style>
+      .cursor { cursor: pointer; }
+      .menu-item:hover { background-color: #f0f4f8; }
+
+      /* Animation keyframes */
+      @keyframes cursorMove {
+        0% { transform: translate(505px, 20px); }
+        15% { transform: translate(505px, 20px); }
+        20% { transform: translate(436px, 105px); }
+        30% { transform: translate(436px, 105px); }
+        35% { transform: translate(275px, 105px); }
+        45% { transform: translate(275px, 105px); }
+        50% { transform: translate(275px, 105px); }
+        100% { transform: translate(505px, 20px); }
+      }
+
+      @keyframes showMainMenu {
+        0%, 19% { opacity: 0; transform: scale(0.95) translateY(-10px); }
+        20%, 85% { opacity: 1; transform: scale(1) translateY(0); }
+        86%, 100% { opacity: 0; transform: scale(0.95) translateY(-10px); }
+      }
+
+      @keyframes showAppsMenu {
+        0%, 34% { opacity: 0; transform: scale(0.95) translateX(10px); }
+        35%, 70% { opacity: 1; transform: scale(1) translateX(0); }
+        71%, 100% { opacity: 0; transform: scale(0.95) translateX(10px); }
+      }
+
+      @keyframes showSuccess {
+        0%, 49% { opacity: 0; transform: scale(0.8); }
+        50%, 90% { opacity: 1; transform: scale(1); }
+        91%, 100% { opacity: 0; transform: scale(0.8); }
+      }
+
+      @keyframes checkmark {
+        0%, 49% { stroke-dashoffset: 20; }
+        50%, 90% { stroke-dashoffset: 0; }
+        91%, 100% { stroke-dashoffset: 20; }
+      }
+
+      .cursor-animated {
+        animation: cursorMove 6s infinite ease-in-out;
+      }
+
+      .main-menu-animated {
+        animation: showMainMenu 6s infinite ease-in-out;
+        transform-origin: top right;
+      }
+
+      .apps-menu-animated {
+        animation: showAppsMenu 6s infinite ease-in-out;
+        transform-origin: top right;
+      }
+
+      .success-animated {
+        animation: showSuccess 6s infinite ease-in-out;
+        transform-origin: center;
+      }
+
+      .checkmark-path {
+        stroke-dasharray: 20;
+        animation: checkmark 6s infinite ease-in-out;
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e4a200;stop-opacity:0.1"/>
+      <stop offset="50%" style="stop-color:#e4a200;stop-opacity:0.05"/>
+      <stop offset="100%" style="stop-color:#4f46e5;stop-opacity:0.08"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <rect width="560" height="360" rx="8" fill="#ffffff"/>
+    <rect width="560" height="360" rx="8" fill="url(#bgGradient)"/>
+  </g>
+
+  <!-- Page header -->
+  <rect x="0" y="0" width="560" height="60" fill="#fff" opacity="0.95" rx="8"/>
+  <svg x="18" y="18" width="24" height="24" viewBox="0 -5 256 256" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid">
+    <!-- Confluence logo -->
+    <g fill="#1868db">
+      <path d="M9.26,187.33c-2.64,4.31-5.6,9.3-8.13,13.29c-2.25,3.81-1.04,8.73,2.72,11.06l52.82,32.51c1.85,1.14,4.09,1.49,6.23,0.97
+      c2.12-0.52,3.94-1.87,5.01-3.74c2.11-3.54,4.83-8.15,7.8-13.06c20.93-34.53,41.97-30.3,79.92-12.18l52.38,24.91
+      c1.98,0.94,4.26,1.04,6.32,0.27c2.06-0.77,3.72-2.34,4.65-4.35l25.15-56.89c1.78-4.06-0.03-8.8-4.07-10.65
+      c-11.05-5.21-33.03-15.58-52.82-25.13C116.04,109.8,55.54,112.04,9.26,187.33z"/>
+      <path d="M246.12,58.23c2.64-4.31,5.6-9.31,8.13-13.29c2.25-3.81,1.04-8.73-2.73-11.06L198.7,1.39
+      c-1.87-1.26-4.18-1.69-6.38-1.18c-2.2,0.51-4.09,1.91-5.23,3.86c-2.11,3.54-4.83,8.15-7.8,13.06
+      c-20.93,34.53-41.97,30.3-79.92,12.18L47.18,4.52c-1.98-0.94-4.26-1.04-6.32-0.27c-2.06,0.77-3.72,2.34-4.66,4.35L11.09,65.46
+      c-1.78,4.06,0.03,8.8,4.06,10.65c11.05,5.2,33.03,15.58,52.82,25.1C139.33,135.76,199.83,133.44,246.12,58.23z"/>
+    </g>
+  </svg>
+  <rect x="55" y="15" width="4" height="30" rx="2" fill="#1868db"/>
+  <text x="70" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1a1a1a">🚀 New Product Features</text>
+  <text x="70" y="45" font-family="Arial, sans-serif" font-size="13" fill="#6b7280">Updated just now</text>
+
+  <!-- Page content placeholders -->
+  <g transform="translate(140, 90)">
+    <rect x="0" y="0" width="280" height="12" rx="6" fill="#e4a200" opacity="0.3"/>
+    <rect x="0" y="25" width="280" height="12" rx="6" fill="#4f46e5" opacity="0.25"/>
+    <rect x="0" y="50" width="280" height="12" rx="6" fill="3b3b3b" opacity="0.15"/>
+    <rect x="0" y="75" width="150" height="12" rx="6" fill="#e4a200" opacity="0.2"/>
+    <circle cx="25" cy="135" r="25" fill="#10b981" opacity="0.2"/>
+    <rect x="65" y="105" width="215" height="12" rx="6" fill="#3b3b3b" opacity="0.2"/>
+    <rect x="65" y="130" width="215" height="12" rx="6" fill="#4f46e5" opacity="0.2"/>
+    <rect x="65" y="155" width="150" height="12" rx="6" fill="#10b981" opacity="0.2"/>
+  </g>
+
+  <!-- Three dots button -->
+  <g id="three-dots-button">
+    <rect x="495" y="15" width="41" height="30" rx="8" fill="#ddebff" stroke="#1868db" stroke-width="1" opacity="0.95"/>
+    <circle cx="509" cy="30" r="2" fill="#1868db"/>
+    <circle cx="516" cy="30" r="2" fill="#1868db"/>
+    <circle cx="523" cy="30" r="2" fill="#1868db"/>
+  </g>
+
+  <!-- Main dropdown menu -->
+  <g id="main-menu" class="main-menu-animated" opacity="0">
+    <rect x="385" y="50" width="150" height="165" rx="6" fill="#ffffff" stroke="#ddd" stroke-width="1" filter="url(#shadow)"/>
+
+    <!-- Menu items -->
+    <g class="menu-item">
+      <text x="405" y="85" font-family="Arial, sans-serif" font-size="14" fill="#172b4d">Edit Page</text>
+    </g>
+
+    <g class="menu-item">
+      <rect x="386" y="96" width="148" height="38" fill="#ddebff"/>
+      <text x="405" y="120" font-family="Arial, sans-serif" font-size="14" fill="#172b4d">Apps</text>
+      <!-- Arrow indicator -->
+      <path d="M505,111 L510,116 L505,121" stroke="#6b778c" stroke-width="1.5" fill="none"/>
+    </g>
+
+    <g class="menu-item">
+      <text x="405" y="155" font-family="Arial, sans-serif" font-size="14" fill="#172b4d">Share</text>
+    </g>
+
+    <g class="menu-item">
+      <text x="405" y="190" font-family="Arial, sans-serif" font-size="14" fill="#172b4d">More...</text>
+    </g>
+  </g>
+
+  <!-- Apps submenu -->
+  <g id="apps-menu" class="apps-menu-animated" opacity="0">
+    <rect x="215" y="90" width="170" height="50" rx="6" fill="#ffffff" stroke="#ddd" stroke-width="1" filter="url(#shadow)"/>
+
+    <!-- PageMailer option -->
+    <g class="menu-item">
+      <rect x="216" y="96" width="168" height="38" fill="#ddebff"/>
+      <text x="230" y="120" font-family="Arial, sans-serif" font-size="14" fill="#172b4d">Send with PageMailer</text>
+    </g>
+  </g>
+
+  <!-- Success notification -->
+  <g id="success-notification" class="success-animated" opacity="0">
+    <rect x="180" y="230" width="200" height="60" rx="8" fill="#10b981" filter="url(#shadow)"/>
+
+    <!-- Checkmark icon -->
+    <circle cx="205" cy="260" r="12" fill="#ffffff"/>
+    <path d="M200 260 L204 264 L211 256" stroke="#10b981" stroke-width="2.5" fill="none" class="checkmark-path"/>
+
+    <text x="225" y="257" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff">Email Sent!</text>
+    <text x="225" y="272" font-family="Arial, sans-serif" font-size="12" fill="#d1fae5">Page sent via PageMailer</text>
+  </g>
+
+  <!-- Animated cursor (Mac) -->
+  <g id="cursor" class="cursor-animated">
+    <polygon fill="#ffffff" points="8.2,20.9 8.2,4.9 19.8,16.5 13,16.5 12.6,16.6 "/>
+    <polygon fill="#ffffff" points="17.3,21.6 13.7,23.1 9,12 12.7,10.5 "/>
+    <rect x="12.5" y="13.6" transform="matrix(0.9221 -0.3871 0.3871 0.9221 -5.7605 6.5909)" width="2" height="8"/>
+    <polygon points="9.2,7.3 9.2,18.5 12.2,15.6 12.6,15.5 17.4,15.5 "/>
+  </g>
+</svg>

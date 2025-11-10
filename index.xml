@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on PageMailer</title><link>https://pagemailer.app/</link><description>Recent content in Home on PageMailer</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://pagemailer.app/index.xml" rel="self" type="application/rss+xml"/><item><title>Installation</title><link>https://pagemailer.app/docs/install/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pagemailer.app/docs/install/</guid><description>&lt;h2 id="prerequisites">Prerequisites&lt;/h2>
+&lt;ul>
+&lt;li>Ensure you are using Confluence Cloud, as PageMailer does not support server instances.&lt;/li>
+&lt;/ul>
+&lt;h2 id="installation-steps">Installation Steps&lt;/h2>
+&lt;h3 id="1-go-to-the-atlassian-marketplace">1. Go to the Atlassian Marketplace&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>Visit the &lt;a href="https://pagemailer.app/go/marketplace">PageMailer app listing on Atlassian Marketplace&lt;/a>.
+&lt;a href="https://pagemailer.app/images/docs/install-from-marketplace.png" target="_blank" class="flex flex-col items-start">
+ &lt;img src="https://pagemailer.app/images/docs/install-from-marketplace.png" alt="Installing from the Atlassian Marketplace" title="Installing from the Atlassian Marketplace"class="max-h-80 max-w-[min(100%,36rem)] !mb-0 !mt-0 !rounded-md"
+ >
+ &lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Or directly from Confluence:
+&lt;a href="https://pagemailer.app/images/docs/install-from-confluence.png" target="_blank" class="flex flex-col items-start">
+ &lt;img src="https://pagemailer.app/images/docs/install-from-confluence.png" alt="Installing from Confluence" title="Installing from Confluence"class="max-h-80 max-w-[min(100%,36rem)] !mb-0 !mt-0 !rounded-md"
+ >
+ &lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="2-install-the-app">2. Install the app&lt;/h3>
+&lt;ul>
+&lt;li>Click &lt;strong>Install&lt;/strong> or &lt;strong>Try it free&lt;/strong>.&lt;/li>
+&lt;li>Authorize required permissions, such as:
+&lt;ul>
+&lt;li>Get Confluence page list and content&lt;/li>
+&lt;li>Access user profile (used for user mentions in pages)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="3-verify-the-installation">3. Verify the installation&lt;/h3>
+&lt;p>To ensure PageMailer was successfully installed, try to visit the app&amp;rsquo;s &lt;a href="https://pagemailer.app/docs/settings/">settings&lt;/a> page,
+and make sure you are able to &lt;a href="https://pagemailer.app/docs/basic-usage/send-an-email/">send an email&lt;/a>.&lt;/p></description></item><item><title>Logos &amp; Socials</title><link>https://pagemailer.app/docs/settings/logos-socials/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pagemailer.app/docs/settings/logos-socials/</guid><description>&lt;p>Logos &amp;amp; Socials settings are accessible as a tab on PageMailer&amp;rsquo;s settings page. &lt;em>You can find the app&amp;rsquo;s settings by following &lt;a href="https://pagemailer.app/docs/settings/">this step-by-step guide&lt;/a>.&lt;/em>&lt;/p>
+&lt;h2 id="social-media-links">Social media links&lt;/h2>
+&lt;p>You can optionally set up social media links that can be displayed in the footer of your email communications. This is an option that can be turned on or off on a per-template basis, and you can find out more about how to use it in the &lt;a href="https://pagemailer.app/docs/settings/templates/">template settings&lt;/a>.&lt;/p></description></item><item><title>Templates</title><link>https://pagemailer.app/docs/settings/templates/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pagemailer.app/docs/settings/templates/</guid><description>&lt;p>Template management is accessible as a tab on PageMailer&amp;rsquo;s settings page. &lt;em>You can find the app&amp;rsquo;s settings by following &lt;a href="https://pagemailer.app/docs/settings/">this step-by-step guide&lt;/a>.&lt;/em>&lt;/p>
+&lt;h2 id="creating-templates">Creating templates&lt;/h2>
+&lt;figure class="flex flex-col items-center">
+ &lt;a href="https://pagemailer.app/images/docs/templates-overview.png" target="_blank" class="flex flex-col items-center">
+ &lt;img src="https://pagemailer.app/images/docs/templates-overview.png" alt="Template management overview"class="max-h-80 max-w-[min(100%,36rem)] !mb-0 !mt-0 !rounded-md"
+ >
+ &lt;/a>&lt;figcaption>Template management overview&lt;/figcaption>&lt;/figure>&lt;p>&lt;strong>Please refer to the annotated image, and read the following legend:&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>You can create up to &lt;strong>100 templates&lt;/strong> for your organization, and will see a count in the top panel.&lt;/li>
+&lt;li>The first section/table is for custom templates created and managed by your organization. You can create a template by copying a template provided by PageMailer. You will then be able to modify its settings, assign logos, colors, and more.&lt;/li>
+&lt;li>This is the list of provided templates which PageMailer comes with. If you would like to request more base templates to be added, please contact us through our &lt;a href="https://pagemailer.app/support/">support channel&lt;/a>. Alternatively, PageMailer supports an advanced setting allowing you to &lt;a href="https://pagemailer.app/docs/advanced/custom-html/">write your own HTML &amp;amp; CSS&lt;/a> in your custom templates.&lt;/li>
+&lt;li>Get started by previewing templates and copying them to make them your own. You can copy the same template multiple times and configure it differently.&lt;/li>
+&lt;/ol>
+&lt;blockquote>
+&lt;p>You can preview provided templates and input your own &lt;a href="#configuring-templates">configuration&lt;/a> to see what it would look like with your branding.&lt;/p></description></item><item><title>Sending an email</title><link>https://pagemailer.app/docs/basic-usage/send-an-email/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pagemailer.app/docs/basic-usage/send-an-email/</guid><description>&lt;p>In this guide, we will go over the steps you&amp;rsquo;ll need to take to send the contents of a &lt;strong>Confluence&lt;/strong> page or blog as a branded email.
+To ensure that the branding of the email is conform to your company&amp;rsquo;s branding, please head to our
+&lt;a href="https://pagemailer.app/docs/settings/">settings documentation&lt;/a> to get started.&lt;/p>
+&lt;h2 id="open-the-pagemailer-app">Open the PageMailer app&lt;/h2>
+&lt;ol>
+&lt;li>Head to the &lt;strong>page&lt;/strong> or &lt;strong>blog&lt;/strong> you wish to send via email.&lt;/li>
+&lt;li>From the top right corner, find the &amp;ldquo;Send with PageMailer&amp;rdquo; option under &lt;strong>&amp;hellip;&lt;/strong> → &lt;strong>Apps&lt;/strong> → &lt;strong>Send with PageMailer&lt;/strong> as shown here:
+&lt;a href="https://pagemailer.app/images/docs/send-an-email.png" target="_blank" class="flex flex-col items-start">
+ &lt;img src="https://pagemailer.app/images/docs/send-an-email.png" alt="Open PageMailer" title="Open PageMailer"class="max-h-80 max-w-[min(100%,36rem)] !mb-0 !mt-0 !rounded-md"
+ >
+ &lt;/a>&lt;/li>
+&lt;li>A modal should now open with a preview of the email and a form with a couple of configuration options, as seen here:
+&lt;a href="https://pagemailer.app/images/docs/send-an-email-2.png" target="_blank" class="flex flex-col items-start">
+ &lt;img src="https://pagemailer.app/images/docs/send-an-email-2.png" alt="Send with PageMailer modal" title="Send with PageMailer modal"class="max-h-80 max-w-[min(100%,36rem)] !mb-0 !mt-0 !rounded-md"
+ >
+ &lt;/a>&lt;/li>
+&lt;/ol>
+&lt;h2 id="configure-the-email">Configure the email&lt;/h2>
+&lt;figure class="flex flex-col items-center">
+ &lt;a href="https://pagemailer.app/images/docs/send-an-email-3.png" target="_blank" class="flex flex-col items-center">
+ &lt;img src="https://pagemailer.app/images/docs/send-an-email-3.png" alt="Email configuration and preview"class="max-h-80 max-w-[min(100%,36rem)] !mb-0 !mt-0 !rounded-md"
+ >
+ &lt;/a>&lt;figcaption>Email configuration and preview&lt;/figcaption>&lt;/figure>&lt;p>&lt;strong>Please refer to the annotated image, and read the following legend:&lt;/strong>&lt;/p></description></item><item><title>Google account</title><link>https://pagemailer.app/docs/basic-usage/google-account/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pagemailer.app/docs/basic-usage/google-account/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>You can connect a Google Account to send emails from. Please note than &lt;strong>Atlassian&lt;/strong> handles this connection, and &lt;strong>PageMailer&lt;/strong> will not have direct access to your Google account, and you can disconnect it at any point (see &lt;a href="#disconnecting-a-google-account">Disconnecting a Google account&lt;/a>).&lt;/p>
+&lt;h2 id="connecting-a-google-account">Connecting a Google account&lt;/h2>
+&lt;p>&lt;em>&lt;strong>Pre-requisite:&lt;/strong> follow the guide to &lt;a href="https://pagemailer.app/docs/basic-usage/send-an-email/">send an email&lt;/a> to know how to get to this screen.&lt;/em>&lt;/p>
+&lt;p>From within the &amp;ldquo;Send with PageMailer&amp;rdquo; modal, you should see a &lt;strong>Connect Google Account&lt;/strong> button.&lt;/p></description></item><item><title>Custom HTML in templates</title><link>https://pagemailer.app/docs/advanced/custom-html/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pagemailer.app/docs/advanced/custom-html/</guid><description>&lt;p>&lt;em>To learn about template management, head to the documentation &lt;a href="https://pagemailer.app/docs/settings/templates/">page dedicated to templates&lt;/a>.&lt;/em>&lt;/p>
+&lt;h2 id="using-custom-html-in-a-template">Using custom HTML in a template&lt;/h2>
+&lt;blockquote>
+&lt;p>⚠️ This page is an advanced configuration option for PageMailer. You may want to refrain from using it if you are not familiar with HTML &amp;amp; CSS.&lt;/p>&lt;/blockquote>
+&lt;p>Within the modal to &lt;strong>Edit&lt;/strong> a template, scroll all the way down, and you will find this option:&lt;/p>
+&lt;figure class="flex flex-col items-center">
+ &lt;a href="https://pagemailer.app/images/docs/custom-html-button.png" target="_blank" class="flex flex-col items-center">
+ &lt;img src="https://pagemailer.app/images/docs/custom-html-button.png" alt="Option to enable custom HTML"class="max-h-80 max-w-[min(100%,36rem)] !mb-0 !mt-0 !rounded-md"
+ >
+ &lt;/a>&lt;figcaption>Option to enable custom HTML&lt;/figcaption>&lt;/figure>&lt;p>Once the option is enabled, you should see the following:&lt;/p></description></item><item><title>Confluence tips</title><link>https://pagemailer.app/docs/advanced/confluence-tips/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pagemailer.app/docs/advanced/confluence-tips/</guid><description>&lt;p>A few practical notes to help you get the most out of PageMailer when preparing content in Confluence intended to be sent as an email.&lt;/p>
+&lt;h2 id="turn-rich-links-into-regular-links">Turn rich links into regular links&lt;/h2>
+&lt;p>When pasting a link into a Confluence page, it will sometimes be turned into a rich link (or &lt;em>inline card&lt;/em> in Atlassian terms). PageMailer will
+be able to process most of these links when they are public or when they are links to other Confluence pages and blogs, but other Atlassian links such as
+Jira, Trello, StatusPage, etc. are not currently supported (see our &lt;a href="https://pagemailer.app/roadmap/">roadmap&lt;/a> for future support).&lt;/p></description></item><item><title>Supported macros</title><link>https://pagemailer.app/docs/advanced/macros/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pagemailer.app/docs/advanced/macros/</guid><description>&lt;h2 id="list-of-supported-confluence-macros">List of supported Confluence macros&lt;/h2>
+&lt;p>The style of Confluence pages is matched in most templates. Note that some templates override this style to change the default font or re-style panels (e.g. by removing the icon), and more.&lt;/p>
+&lt;table class="[&amp;_td]:align-middle [&amp;_img]:mt-2 [&amp;_img]:mb-2 [&amp;_img]:rounded-md">
+ &lt;thead>
+ &lt;tr>
+ &lt;th class="w-1/3">Macro&lt;/th>
+ &lt;th class="w-2/3">Preview&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Text, paragraphs and basic formatting&lt;/td>
+ &lt;td>&lt;img src="https://pagemailer.app/images/docs/macros/text.png" alt="Text" class="max-w-96" />&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Lists&lt;/td>
+ &lt;td class="flex flex-row gap-2">
+ &lt;img src="https://pagemailer.app/images/docs/macros/bullet-list.png" alt="Bullet list" class="max-w-40" />
+ &lt;img src="https://pagemailer.app/images/docs/macros/ordered-list.png" alt="Ordered list" class="max-w-40" />
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>User mentions (links to user profile)&lt;/td>
+ &lt;td>&lt;img src="https://pagemailer.app/images/docs/macros/mention.png" alt="Mention" class="max-w-28" />&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Task list&lt;/td>
+ &lt;td>&lt;img src="https://pagemailer.app/images/docs/macros/task-list.png" alt="Task list" class="max-w-40" />&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Blockquote&lt;/td>
+ &lt;td>&lt;img src="https://pagemailer.app/images/docs/macros/blockquote.png" alt="Blockquote" class="max-w-96" />&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Headings&lt;/td>
+ &lt;td>&lt;img src="https://pagemailer.app/images/docs/macros/headings.png" alt="Headings" class="max-w-32" />&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Date&lt;/td>
+ &lt;td>&lt;img src="https://pagemailer.app/images/docs/macros/date.png" alt="Date" class="max-w-28" />&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Panels (all colors and types supported)&lt;/td>
+ &lt;td>&lt;img src="https://pagemailer.app/images/docs/macros/panels.png" alt="Panels" />&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Code block&lt;/td>
+ &lt;td>&lt;img src="https://pagemailer.app/images/docs/macros/code-block.png" alt="Code block" />&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Decision list&lt;/td>
+ &lt;td>&lt;img src="https://pagemailer.app/images/docs/macros/decision-list.png" alt="Decision list" />&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Emojis&lt;/td>
+ &lt;td>&lt;img src="https://pagemailer.app/images/docs/macros/emojis.png" alt="Emojis" class="max-w-60" />&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Images (with optional caption support, see &lt;a href="https://pagemailer.app/docs/advanced/image-processing/">image processing&lt;/a> for more details)&lt;/td>
+ &lt;td>&lt;img src="https://pagemailer.app/images/docs/macros/image.png" alt="Image" />&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Layouts (using &lt;code>/layout&lt;/code>)&lt;/td>
+ &lt;td>&lt;img src="https://pagemailer.app/images/docs/macros/layouts.png" alt="Layouts" class="max-w-60" />&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Horizontal rule&lt;/td>
+ &lt;td>&lt;img src="https://pagemailer.app/images/docs/macros/rule.png" alt="Rule" />&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Status&lt;/td>
+ &lt;td>&lt;img src="https://pagemailer.app/images/docs/macros/statuses.png" alt="Statuses" class="max-w-80" />&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Table (supports column split/merge and background colors)&lt;/td>
+ &lt;td>&lt;img src="https://pagemailer.app/images/docs/macros/table.png" alt="Table" />&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Inline cards (rich links)&lt;/td>
+ &lt;td>&lt;img src="https://pagemailer.app/images/docs/macros/inline-card.png" alt="Inline card" class="max-w-96" />&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Block &amp;amp; embed cards (expanded links)&lt;/td>
+ &lt;td>&lt;img src="https://pagemailer.app/images/docs/macros/block-card.png" alt="Block card" />&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Expand (displays as open/expand in the email)&lt;/td>
+ &lt;td>&lt;img src="https://pagemailer.app/images/docs/macros/expand.png" alt="Expand" class="max-w-60" />&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Files (icon and name shown inline, and the file is added as attachment to the email)&lt;/td>
+ &lt;td>&lt;img src="https://pagemailer.app/images/docs/macros/files.png" alt="Files" class="max-w-24" />&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="list-of-unsupported-confluence-macros">List of unsupported Confluence macros&lt;/h2>
+&lt;p>We may eventually add support for some of what is detailed below, and we encourage you to check out our &lt;a href="https://pagemailer.app/roadmap/">roadmap&lt;/a> and share your
+&lt;a href="https://pagemailer.app/support/">feedback&lt;/a> to help us prioritize future changes.&lt;/p></description></item><item><title>Image processing</title><link>https://pagemailer.app/docs/advanced/image-processing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pagemailer.app/docs/advanced/image-processing/</guid><description>&lt;p>Upon processing Confluence pages to &lt;a href="https://pagemailer.app/docs/basic-usage/send-an-email">generate an email&lt;/a> or when &lt;a href="https://pagemailer.app/docs/settings/logos-socials/#logos">uploading logos&lt;/a>,
+PageMailer processes images through our &lt;strong>first-party API&lt;/strong>, which is hosted and owned by PageMailer. This API handles:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Compression&lt;/strong> of JPEG, PNG, and GIF files to reduce file size while maintaining quality.&lt;/li>
+&lt;li>&lt;strong>Conversion&lt;/strong> of SVG files to PNG format for consistent rendering across email clients.&lt;/li>
+&lt;li>&lt;strong>Resizing&lt;/strong> of images that exceed a certain width to ensure optimal display and reducing file size.&lt;/li>
+&lt;/ul>
+&lt;p>All image processing is performed securely and &lt;strong>in accordance with our &lt;a href="https://pagemailer.app/privacy/">Privacy Policy&lt;/a>&lt;/strong>. No third-party services are used for these operations, and your data remains within PageMailer&amp;rsquo;s or Atlassian&amp;rsquo;s infrastructure.&lt;/p></description></item><item><title>Oops! Page not found</title><link>https://pagemailer.app/404.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pagemailer.app/404.html</guid><description>&lt;div class="max-w-[800px] mx-auto text-center">
+&lt;p>We couldn’t find the page you were looking for. It might have been moved, renamed, or never existed. Please &lt;a href="https://pagemailer.app/support/">let us know&lt;/a> or head back to the &lt;a href="https://pagemailer.app/">homepage&lt;/a> to continue browsing.&lt;/p>
+&lt;p>&lt;strong>Need help? The &lt;a href="https://pagemailer.app/docs/">documentation&lt;/a> and our &lt;a href="https://pagemailer.app/support/">community&lt;/a> are great places to start.&lt;/strong>&lt;/p>
+&lt;/div></description></item><item><title>PageMailer on the Atlassian Marketplace</title><link>https://pagemailer.app/go/marketplace/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pagemailer.app/go/marketplace/</guid><description/></item><item><title>PageMailer QR Codes</title><link>https://pagemailer.app/qr/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pagemailer.app/qr/</guid><description/></item><item><title>Pricing</title><link>https://pagemailer.app/pricing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pagemailer.app/pricing/</guid><description>&lt;section class="bg-white">
+ &lt;div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-8 lg:px-6">
+ &lt;div class="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
+ 
+ &lt;p class="mb-5 font-light text-gray-500 sm:text-xl">PageMailer helps your team send professional, branded emails from Confluence in seconds.&lt;/p>
+ 
+ &lt;/div>
+
+ &lt;div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:max-w-[75%] mx-auto">
+ 
+ &lt;div class="relative flex flex-col p-6 bg-white rounded-2xl shadow-xl transform hover:-translate-y-1 transition duration-300">
+ &lt;div class="mb-4">
+ &lt;h3 class="text-2xl font-bold text-gray-900">Free Trial&lt;/h3>
+ &lt;p class="mt-2 text-gray-500">Try PageMailer for free for 30 days.&lt;/p>
+ &lt;/div>
+
+ &lt;div class="mb-6 flex flex-col sm:flex-row gap-2 justify-between items-center">
+ &lt;div class="flex items-baseline">
+ &lt;span class="text-4xl font-extrabold text-gray-900">$&lt;/span>
+ &lt;span
+ id="price-0"
+ class="text-5xl font-extrabold tracking-tight text-gray-900">
+ 0
+ &lt;/span>
+ 
+ &lt;/div>
+ 
+ &lt;/div>
+
+ &lt;ul class="mb-8 space-y-4 flex-grow">
+ 
+ &lt;li class="flex items-center">
+ &lt;svg class="w-5 h-5 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+ &lt;path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd">&lt;/path>
+ &lt;/svg>
+ &lt;span class="text-gray-600">Unlimited email sends&lt;/span>
+ &lt;/li>
+ 
+ &lt;li class="flex items-center">
+ &lt;svg class="w-5 h-5 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+ &lt;path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd">&lt;/path>
+ &lt;/svg>
+ &lt;span class="text-gray-600">Custom branding &amp;amp; templates&lt;/span>
+ &lt;/li>
+ 
+ &lt;li class="flex items-center">
+ &lt;svg class="w-5 h-5 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+ &lt;path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd">&lt;/path>
+ &lt;/svg>
+ &lt;span class="text-gray-600">Emails sent with your Google account&lt;/span>
+ &lt;/li>
+ 
+ &lt;li class="flex items-center">
+ &lt;svg class="w-5 h-5 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+ &lt;path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd">&lt;/path>
+ &lt;/svg>
+ &lt;span class="text-gray-600">Works with Confluence Cloud&lt;/span>
+ &lt;/li>
+ 
+ &lt;/ul>
+
+ &lt;a href="https://pagemailer.app/go/marketplace" class="text-center w-full px-5 py-3 rounded-lg bg-primary-600 text-white hover:bg-primary-700 font-medium transition duration-300">
+ Try for free
+ &lt;/a>
+ &lt;/div>
+ 
+ &lt;div class="relative flex flex-col p-6 bg-primary-600 text-white rounded-2xl shadow-xl transform hover:-translate-y-1 transition duration-300">
+ &lt;div class="mb-4">
+ &lt;h3 class="text-2xl font-bold text-white">Full Plan&lt;/h3>
+ &lt;p class="mt-2 ">Lower per-user costs as your team grows. Monthly or annual billing.&lt;/p></description></item><item><title>Privacy Policy &amp; Data Processing Agreement</title><link>https://pagemailer.app/privacy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pagemailer.app/privacy/</guid><description>&lt;p>&lt;em>Last updated: August 1, 2025&lt;/em>&lt;/p>
+&lt;hr>
+&lt;p>At &lt;strong>PageMailer&lt;/strong>, we respect your privacy and are committed to protecting personal data. This document serves both as our &lt;strong>Privacy Policy&lt;/strong> and as our &lt;strong>Data Processing Agreement (DPA)&lt;/strong> under the &lt;strong>General Data Protection Regulation (GDPR)&lt;/strong>, the &lt;strong>California Consumer Privacy Act (CCPA)&lt;/strong>, and similar data protection laws.&lt;/p>
+&lt;p>By using PageMailer, you, as the &lt;strong>Data Controller&lt;/strong>, engage PageMailer as your &lt;strong>Data Processor&lt;/strong> to process personal data solely for the purposes described herein.&lt;/p></description></item><item><title>Roadmap</title><link>https://pagemailer.app/roadmap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pagemailer.app/roadmap/</guid><description>&lt;p>This is PageMailer&amp;rsquo;s current roadmap. We invite you to join our &lt;a href="https://pagemailer.app/support/">Slack community&lt;/a> to come give us feedback on what you think we should prioritize. We want to work on supporting all of your use cases!&lt;/p>
+
+&lt;section class="bg-white">
+ &lt;div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+ 
+
+ &lt;div class="space-y-6">
+ 
+ &lt;div class="border rounded-lg overflow-hidden bg-white shadow-sm hover:shadow-md transition-shadow duration-200">
+ &lt;button class="w-full flex justify-between items-center p-6 text-left hover:bg-gray-50 transition-colors duration-200 focus:outline-none" 
+ onclick="this.parentElement.querySelector('.faq-content').classList.toggle('hidden');
+ this.querySelector('svg').classList.toggle('rotate-180')">
+ &lt;span class="text-lg font-medium text-gray-900">Save drafts in Gmail&lt;/span>
+ &lt;svg class="w-5 h-5 text-gray-500 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+ &lt;path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">&lt;/path>
+ &lt;/svg>
+ &lt;/button>
+ &lt;div class="faq-content hidden border-t">
+ &lt;div class="p-6 prose prose-sm sm:prose lg:prose-lg max-w-none">
+ Instead of directly sending an email, we are planning on adding the ability to save the branded email as a Gmail draft. This enables the user to make final touches within Gmail, schedule the email, and more.
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+ 
+ &lt;div class="border rounded-lg overflow-hidden bg-white shadow-sm hover:shadow-md transition-shadow duration-200">
+ &lt;button class="w-full flex justify-between items-center p-6 text-left hover:bg-gray-50 transition-colors duration-200 focus:outline-none" 
+ onclick="this.parentElement.querySelector('.faq-content').classList.toggle('hidden');
+ this.querySelector('svg').classList.toggle('rotate-180')">
+ &lt;span class="text-lg font-medium text-gray-900">More recipient selection options, using Confluence features&lt;/span>
+ &lt;svg class="w-5 h-5 text-gray-500 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+ &lt;path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">&lt;/path>
+ &lt;/svg>
+ &lt;/button>
+ &lt;div class="faq-content hidden border-t">
+ &lt;div class="p-6 prose prose-sm sm:prose lg:prose-lg max-w-none">
+ Manage recipients by picking from a list of recent or frequently used emails, add Confluence users or groups, etc.
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+ 
+ &lt;div class="border rounded-lg overflow-hidden bg-white shadow-sm hover:shadow-md transition-shadow duration-200">
+ &lt;button class="w-full flex justify-between items-center p-6 text-left hover:bg-gray-50 transition-colors duration-200 focus:outline-none" 
+ onclick="this.parentElement.querySelector('.faq-content').classList.toggle('hidden');
+ this.querySelector('svg').classList.toggle('rotate-180')">
+ &lt;span class="text-lg font-medium text-gray-900">Microsoft (Outlook) integration: send emails from a Microsoft account&lt;/span>
+ &lt;svg class="w-5 h-5 text-gray-500 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+ &lt;path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">&lt;/path>
+ &lt;/svg>
+ &lt;/button>
+ &lt;div class="faq-content hidden border-t">
+ &lt;div class="p-6 prose prose-sm sm:prose lg:prose-lg max-w-none">
+ Currently emails can only be sent from a connected Google account. We plan on adding more integrations as required by our users.
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+ 
+ &lt;div class="border rounded-lg overflow-hidden bg-white shadow-sm hover:shadow-md transition-shadow duration-200">
+ &lt;button class="w-full flex justify-between items-center p-6 text-left hover:bg-gray-50 transition-colors duration-200 focus:outline-none" 
+ onclick="this.parentElement.querySelector('.faq-content').classList.toggle('hidden');
+ this.querySelector('svg').classList.toggle('rotate-180')">
+ &lt;span class="text-lg font-medium text-gray-900">MailChimp integration: send emails using your MailChimp account, use your mailing lists&lt;/span>
+ &lt;svg class="w-5 h-5 text-gray-500 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+ &lt;path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">&lt;/path>
+ &lt;/svg>
+ &lt;/button>
+ &lt;div class="faq-content hidden border-t">
+ &lt;div class="p-6 prose prose-sm sm:prose lg:prose-lg max-w-none">
+ Currently emails can only be sent from a connected Google account. We plan on adding more integrations as required by our users.
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+ 
+ &lt;div class="border rounded-lg overflow-hidden bg-white shadow-sm hover:shadow-md transition-shadow duration-200">
+ &lt;button class="w-full flex justify-between items-center p-6 text-left hover:bg-gray-50 transition-colors duration-200 focus:outline-none" 
+ onclick="this.parentElement.querySelector('.faq-content').classList.toggle('hidden');
+ this.querySelector('svg').classList.toggle('rotate-180')">
+ &lt;span class="text-lg font-medium text-gray-900">Custom email server (SMTP): send emails from your own SMTP server&lt;/span>
+ &lt;svg class="w-5 h-5 text-gray-500 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+ &lt;path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">&lt;/path>
+ &lt;/svg>
+ &lt;/button>
+ &lt;div class="faq-content hidden border-t">
+ &lt;div class="p-6 prose prose-sm sm:prose lg:prose-lg max-w-none">
+ Currently emails can only be sent from a connected Google account. We plan on adding more integrations as required by our users.
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+ 
+ &lt;div class="border rounded-lg overflow-hidden bg-white shadow-sm hover:shadow-md transition-shadow duration-200">
+ &lt;button class="w-full flex justify-between items-center p-6 text-left hover:bg-gray-50 transition-colors duration-200 focus:outline-none" 
+ onclick="this.parentElement.querySelector('.faq-content').classList.toggle('hidden');
+ this.querySelector('svg').classList.toggle('rotate-180')">
+ &lt;span class="text-lg font-medium text-gray-900">Support Atlassian rich links (Jira, Trello, StatusPage, etc.)&lt;/span>
+ &lt;svg class="w-5 h-5 text-gray-500 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+ &lt;path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">&lt;/path>
+ &lt;/svg>
+ &lt;/button>
+ &lt;div class="faq-content hidden border-t">
+ &lt;div class="p-6 prose prose-sm sm:prose lg:prose-lg max-w-none">
+ See &lt;a href="https://pagemailer.app/docs/advanced/confluence-tips/#turn-rich-links-into-regular-links">the documentation&lt;/a> to learn more about unsupported rich links. The goal of this feature is to allow PageMailer to connect to these other Atlassian apps in order to fetch link data.
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+ 
+ &lt;div class="border rounded-lg overflow-hidden bg-white shadow-sm hover:shadow-md transition-shadow duration-200">
+ &lt;button class="w-full flex justify-between items-center p-6 text-left hover:bg-gray-50 transition-colors duration-200 focus:outline-none" 
+ onclick="this.parentElement.querySelector('.faq-content').classList.toggle('hidden');
+ this.querySelector('svg').classList.toggle('rotate-180')">
+ &lt;span class="text-lg font-medium text-gray-900">Alternate sender options: control the identity of the sender, use institutional emails&lt;/span>
+ &lt;svg class="w-5 h-5 text-gray-500 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+ &lt;path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">&lt;/path>
+ &lt;/svg>
+ &lt;/button>
+ &lt;div class="faq-content hidden border-t">
+ &lt;div class="p-6 prose prose-sm sm:prose lg:prose-lg max-w-none">
+ Send emails on behalf of a Google group or using a different name and email as approved by your Confluence administrator.
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+ 
+ &lt;div class="border rounded-lg overflow-hidden bg-white shadow-sm hover:shadow-md transition-shadow duration-200">
+ &lt;button class="w-full flex justify-between items-center p-6 text-left hover:bg-gray-50 transition-colors duration-200 focus:outline-none" 
+ onclick="this.parentElement.querySelector('.faq-content').classList.toggle('hidden');
+ this.querySelector('svg').classList.toggle('rotate-180')">
+ &lt;span class="text-lg font-medium text-gray-900">Scheduled emails: send later&lt;/span>
+ &lt;svg class="w-5 h-5 text-gray-500 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+ &lt;path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">&lt;/path>
+ &lt;/svg>
+ &lt;/button>
+ &lt;div class="faq-content hidden border-t">
+ &lt;div class="p-6 prose prose-sm sm:prose lg:prose-lg max-w-none">
+ Set and manage outgoing emails with scheduling.
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+ 
+ &lt;div class="border rounded-lg overflow-hidden bg-white shadow-sm hover:shadow-md transition-shadow duration-200">
+ &lt;button class="w-full flex justify-between items-center p-6 text-left hover:bg-gray-50 transition-colors duration-200 focus:outline-none" 
+ onclick="this.parentElement.querySelector('.faq-content').classList.toggle('hidden');
+ this.querySelector('svg').classList.toggle('rotate-180')">
+ &lt;span class="text-lg font-medium text-gray-900">Email triggers for pages and blogs&lt;/span>
+ &lt;svg class="w-5 h-5 text-gray-500 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+ &lt;path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">&lt;/path>
+ &lt;/svg>
+ &lt;/button>
+ &lt;div class="faq-content hidden border-t">
+ &lt;div class="p-6 prose prose-sm sm:prose lg:prose-lg max-w-none">
+ Automate emails when a blog post is created, or automate sending onboarding (or other) pages as emails when a new user is added to Confluence, or when they get added to a specific group.
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+ 
+ &lt;div class="border rounded-lg overflow-hidden bg-white shadow-sm hover:shadow-md transition-shadow duration-200">
+ &lt;button class="w-full flex justify-between items-center p-6 text-left hover:bg-gray-50 transition-colors duration-200 focus:outline-none" 
+ onclick="this.parentElement.querySelector('.faq-content').classList.toggle('hidden');
+ this.querySelector('svg').classList.toggle('rotate-180')">
+ &lt;span class="text-lg font-medium text-gray-900">Evaluate support for custom emojis added by your users&lt;/span>
+ &lt;svg class="w-5 h-5 text-gray-500 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+ &lt;path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">&lt;/path>
+ &lt;/svg>
+ &lt;/button>
+ &lt;div class="faq-content hidden border-t">
+ &lt;div class="p-6 prose prose-sm sm:prose lg:prose-lg max-w-none">
+ If Atlassian provides the necessary functionality, we plan to integrate support so your team’s custom emojis display correctly in email content. &lt;a href="https://pagemailer.app/docs/advanced/macros/#custom-emojis">Learn more.&lt;/a>
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+ 
+ &lt;div class="border rounded-lg overflow-hidden bg-white shadow-sm hover:shadow-md transition-shadow duration-200">
+ &lt;button class="w-full flex justify-between items-center p-6 text-left hover:bg-gray-50 transition-colors duration-200 focus:outline-none" 
+ onclick="this.parentElement.querySelector('.faq-content').classList.toggle('hidden');
+ this.querySelector('svg').classList.toggle('rotate-180')">
+ &lt;span class="text-lg font-medium text-gray-900">Permissions&lt;/span>
+ &lt;svg class="w-5 h-5 text-gray-500 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+ &lt;path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">&lt;/path>
+ &lt;/svg>
+ &lt;/button>
+ &lt;div class="faq-content hidden border-t">
+ &lt;div class="p-6 prose prose-sm sm:prose lg:prose-lg max-w-none">
+ Manage who can send emails with PageMailer in your Atlassian site, and limit sending options.
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+ 
+ &lt;div class="border rounded-lg overflow-hidden bg-white shadow-sm hover:shadow-md transition-shadow duration-200">
+ &lt;button class="w-full flex justify-between items-center p-6 text-left hover:bg-gray-50 transition-colors duration-200 focus:outline-none" 
+ onclick="this.parentElement.querySelector('.faq-content').classList.toggle('hidden');
+ this.querySelector('svg').classList.toggle('rotate-180')">
+ &lt;span class="text-lg font-medium text-gray-900">Favorite templates (user-level)&lt;/span>
+ &lt;svg class="w-5 h-5 text-gray-500 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+ &lt;path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">&lt;/path>
+ &lt;/svg>
+ &lt;/button>
+ &lt;div class="faq-content hidden border-t">
+ &lt;div class="p-6 prose prose-sm sm:prose lg:prose-lg max-w-none">
+ Allow users to save templates as favorites for organizations with many templates and varied branding.
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+ 
+ &lt;div class="border rounded-lg overflow-hidden bg-white shadow-sm hover:shadow-md transition-shadow duration-200">
+ &lt;button class="w-full flex justify-between items-center p-6 text-left hover:bg-gray-50 transition-colors duration-200 focus:outline-none" 
+ onclick="this.parentElement.querySelector('.faq-content').classList.toggle('hidden');
+ this.querySelector('svg').classList.toggle('rotate-180')">
+ &lt;span class="text-lg font-medium text-gray-900">Sales &amp;amp; onboarding: custom macro support&lt;/span>
+ &lt;svg class="w-5 h-5 text-gray-500 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+ &lt;path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">&lt;/path>
+ &lt;/svg>
+ &lt;/button>
+ &lt;div class="faq-content hidden border-t">
+ &lt;div class="p-6 prose prose-sm sm:prose lg:prose-lg max-w-none">
+ Reference your users&amp;rsquo; or contact names, job titles, and more to automate sending emails with a template managed within PageMailer. Contact information for sales could be loaded from an external spreadsheet.
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+ 
+ &lt;div class="border rounded-lg overflow-hidden bg-white shadow-sm hover:shadow-md transition-shadow duration-200">
+ &lt;button class="w-full flex justify-between items-center p-6 text-left hover:bg-gray-50 transition-colors duration-200 focus:outline-none" 
+ onclick="this.parentElement.querySelector('.faq-content').classList.toggle('hidden');
+ this.querySelector('svg').classList.toggle('rotate-180')">
+ &lt;span class="text-lg font-medium text-gray-900">Analytics and reports&lt;/span>
+ &lt;svg class="w-5 h-5 text-gray-500 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+ &lt;path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">&lt;/path>
+ &lt;/svg>
+ &lt;/button>
+ &lt;div class="faq-content hidden border-t">
+ &lt;div class="p-6 prose prose-sm sm:prose lg:prose-lg max-w-none">
+ Analytics on your outgoing emails, top senders and destinations, etc.
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+ 
+ &lt;/div>
+ &lt;/div>
+&lt;/section></description></item><item><title>Slack Community</title><link>https://pagemailer.app/go/slack/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pagemailer.app/go/slack/</guid><description/></item><item><title>Support &amp; Feedback</title><link>https://pagemailer.app/support/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pagemailer.app/support/</guid><description>&lt;p class="text-center">
+ Get support and share your feedback by email or by joining our Slack community. Whether you have a question, want to report a bug, or suggest a new feature, you’ll get quick help directly from the team.
+&lt;/p>
+&lt;div class="flex justify-center mt-16">
+ &lt;a href="https://pagemailer.app/go/slack" target="_blank" rel="noreferrer" class="inline-flex items-center justify-center px-6 py-3 rounded-lg font-bold transition duration-200 ease-in-out border-2 border-primary-600 hover:scale-105">
+ &lt;img src="https://pagemailer.app/images/slack-logo.svg" alt="Slack" class="!border-0 !shadow-none !mt-0 !mb-0 w-8 h-8 mr-2 !rounded-none" />
+ Join us on Slack to stay in the loop and be part of the conversation
+ &lt;/a>
+&lt;/div>
+&lt;p class="text-center mt-16 font-bold flex items-center justify-center gap-1.5">
+ &lt;span class="text-4xl">📩&lt;/span> Or reach out at: &lt;span class="text-primary-800">contact [at] pagemailer [dot] app&lt;/span>
+&lt;/p></description></item></channel></rss>

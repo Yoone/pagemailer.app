@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Getting started on PageMailer</title><link>https://pagemailer.app/docs/</link><description>Recent content in Getting started on PageMailer</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://pagemailer.app/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Installation</title><link>https://pagemailer.app/docs/install/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pagemailer.app/docs/install/</guid><description>&lt;h2 id="prerequisites">Prerequisites&lt;/h2>
+&lt;ul>
+&lt;li>Ensure you are using Confluence Cloud, as PageMailer does not support server instances.&lt;/li>
+&lt;/ul>
+&lt;h2 id="installation-steps">Installation Steps&lt;/h2>
+&lt;h3 id="1-go-to-the-atlassian-marketplace">1. Go to the Atlassian Marketplace&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>Visit the &lt;a href="https://pagemailer.app/go/marketplace">PageMailer app listing on Atlassian Marketplace&lt;/a>.
+&lt;a href="https://pagemailer.app/images/docs/install-from-marketplace.png" target="_blank" class="flex flex-col items-start">
+ &lt;img src="https://pagemailer.app/images/docs/install-from-marketplace.png" alt="Installing from the Atlassian Marketplace" title="Installing from the Atlassian Marketplace"class="max-h-80 max-w-[min(100%,36rem)] !mb-0 !mt-0 !rounded-md"
+ >
+ &lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Or directly from Confluence:
+&lt;a href="https://pagemailer.app/images/docs/install-from-confluence.png" target="_blank" class="flex flex-col items-start">
+ &lt;img src="https://pagemailer.app/images/docs/install-from-confluence.png" alt="Installing from Confluence" title="Installing from Confluence"class="max-h-80 max-w-[min(100%,36rem)] !mb-0 !mt-0 !rounded-md"
+ >
+ &lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="2-install-the-app">2. Install the app&lt;/h3>
+&lt;ul>
+&lt;li>Click &lt;strong>Install&lt;/strong> or &lt;strong>Try it free&lt;/strong>.&lt;/li>
+&lt;li>Authorize required permissions, such as:
+&lt;ul>
+&lt;li>Get Confluence page list and content&lt;/li>
+&lt;li>Access user profile (used for user mentions in pages)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="3-verify-the-installation">3. Verify the installation&lt;/h3>
+&lt;p>To ensure PageMailer was successfully installed, try to visit the app&amp;rsquo;s &lt;a href="https://pagemailer.app/docs/settings/">settings&lt;/a> page,
+and make sure you are able to &lt;a href="https://pagemailer.app/docs/basic-usage/send-an-email/">send an email&lt;/a>.&lt;/p></description></item></channel></rss>

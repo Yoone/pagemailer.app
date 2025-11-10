@@ -1,0 +1,63 @@
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with border as specified -->
+  <rect width="600" height="400" fill="#f3f4f6"/>
+  <rect x="20" y="20" width="560" height="360" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="2"/>
+
+  <!-- Define drop shadow filter -->
+  <defs>
+    <filter id="dropShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000000" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+
+  <!-- Template Card 1 - Newsletter Style -->
+  <rect x="60" y="80" width="140" height="100" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" filter="url(#dropShadow)"/>
+  <rect x="60" y="80" width="140" height="25" rx="8" fill="#3b82f6"/>
+  <rect x="60" y="93" width="140" height="12" fill="#3b82f6"/>
+  <rect x="75" y="120" width="110" height="4" rx="2" fill="#e5e7eb"/>
+  <rect x="75" y="130" width="85" height="4" rx="2" fill="#e5e7eb"/>
+  <rect x="75" y="140" width="95" height="4" rx="2" fill="#e5e7eb"/>
+  <rect x="75" y="155" width="110" height="15" rx="4" fill="#3b82f6"/>
+
+  <!-- Template Card 2 - Announcement Style -->
+  <rect x="230" y="80" width="140" height="100" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" filter="url(#dropShadow)"/>
+  <rect x="245" y="95" width="110" height="20" rx="4" fill="#10b981"/>
+  <rect x="245" y="125" width="110" height="4" rx="2" fill="#e5e7eb"/>
+  <rect x="245" y="135" width="85" height="4" rx="2" fill="#e5e7eb"/>
+  <rect x="245" y="145" width="95" height="4" rx="2" fill="#e5e7eb"/>
+  <rect x="245" y="160" width="70" height="12" rx="6" fill="#10b981"/>
+
+  <!-- Template Card 3 - Simple Clean -->
+  <rect x="400" y="80" width="140" height="100" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" filter="url(#dropShadow)"/>
+  <rect x="415" y="95" width="110" height="8" rx="4" fill="#6b7280"/>
+  <rect x="415" y="115" width="110" height="4" rx="2" fill="#e5e7eb"/>
+  <rect x="415" y="125" width="85" height="4" rx="2" fill="#e5e7eb"/>
+  <rect x="415" y="135" width="95" height="4" rx="2" fill="#e5e7eb"/>
+  <rect x="415" y="145" width="75" height="4" rx="2" fill="#e5e7eb"/>
+  <rect x="415" y="160" width="50" height="10" rx="5" fill="#6b7280"/>
+
+  <!-- Template Card 4 - Report Style -->
+  <rect x="60" y="220" width="140" height="100" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" filter="url(#dropShadow)"/>
+  <rect x="75" y="235" width="110" height="12" rx="6" fill="#f59e0b"/>
+  <rect x="75" y="255" width="110" height="4" rx="2" fill="#e5e7eb"/>
+  <rect x="75" y="265" width="85" height="4" rx="2" fill="#e5e7eb"/>
+  <rect x="75" y="280" width="30" height="25" rx="4" fill="#f3f4f6"/>
+  <rect x="115" y="280" width="30" height="25" rx="4" fill="#f3f4f6"/>
+  <rect x="155" y="280" width="30" height="25" rx="4" fill="#f3f4f6"/>
+
+  <!-- Template Card 5 - Invitation Style -->
+  <rect x="230" y="220" width="140" height="100" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" filter="url(#dropShadow)"/>
+  <circle cx="300" cy="250" r="15" fill="#ec4899"/>
+  <rect x="245" y="275" width="110" height="4" rx="2" fill="#e5e7eb"/>
+  <rect x="245" y="285" width="85" height="4" rx="2" fill="#e5e7eb"/>
+  <rect x="245" y="300" width="110" height="12" rx="6" fill="#ec4899"/>
+
+  <!-- Template Card 6 - Update Style -->
+  <rect x="400" y="220" width="140" height="100" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" filter="url(#dropShadow)"/>
+  <rect x="415" y="235" width="15" height="15" rx="2" fill="#8b5cf6"/>
+  <rect x="440" y="238" width="85" height="6" rx="3" fill="#8b5cf6"/>
+  <rect x="415" y="260" width="110" height="4" rx="2" fill="#e5e7eb"/>
+  <rect x="415" y="270" width="85" height="4" rx="2" fill="#e5e7eb"/>
+  <rect x="415" y="280" width="95" height="4" rx="2" fill="#e5e7eb"/>
+  <rect x="415" y="295" width="75" height="10" rx="5" fill="#8b5cf6"/>
+</svg>

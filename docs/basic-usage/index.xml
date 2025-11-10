@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Basic usage on PageMailer</title><link>https://pagemailer.app/docs/basic-usage/</link><description>Recent content in Basic usage on PageMailer</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://pagemailer.app/docs/basic-usage/index.xml" rel="self" type="application/rss+xml"/><item><title>Sending an email</title><link>https://pagemailer.app/docs/basic-usage/send-an-email/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pagemailer.app/docs/basic-usage/send-an-email/</guid><description>&lt;p>In this guide, we will go over the steps you&amp;rsquo;ll need to take to send the contents of a &lt;strong>Confluence&lt;/strong> page or blog as a branded email.
+To ensure that the branding of the email is conform to your company&amp;rsquo;s branding, please head to our
+&lt;a href="https://pagemailer.app/docs/settings/">settings documentation&lt;/a> to get started.&lt;/p>
+&lt;h2 id="open-the-pagemailer-app">Open the PageMailer app&lt;/h2>
+&lt;ol>
+&lt;li>Head to the &lt;strong>page&lt;/strong> or &lt;strong>blog&lt;/strong> you wish to send via email.&lt;/li>
+&lt;li>From the top right corner, find the &amp;ldquo;Send with PageMailer&amp;rdquo; option under &lt;strong>&amp;hellip;&lt;/strong> → &lt;strong>Apps&lt;/strong> → &lt;strong>Send with PageMailer&lt;/strong> as shown here:
+&lt;a href="https://pagemailer.app/images/docs/send-an-email.png" target="_blank" class="flex flex-col items-start">
+ &lt;img src="https://pagemailer.app/images/docs/send-an-email.png" alt="Open PageMailer" title="Open PageMailer"class="max-h-80 max-w-[min(100%,36rem)] !mb-0 !mt-0 !rounded-md"
+ >
+ &lt;/a>&lt;/li>
+&lt;li>A modal should now open with a preview of the email and a form with a couple of configuration options, as seen here:
+&lt;a href="https://pagemailer.app/images/docs/send-an-email-2.png" target="_blank" class="flex flex-col items-start">
+ &lt;img src="https://pagemailer.app/images/docs/send-an-email-2.png" alt="Send with PageMailer modal" title="Send with PageMailer modal"class="max-h-80 max-w-[min(100%,36rem)] !mb-0 !mt-0 !rounded-md"
+ >
+ &lt;/a>&lt;/li>
+&lt;/ol>
+&lt;h2 id="configure-the-email">Configure the email&lt;/h2>
+&lt;figure class="flex flex-col items-center">
+ &lt;a href="https://pagemailer.app/images/docs/send-an-email-3.png" target="_blank" class="flex flex-col items-center">
+ &lt;img src="https://pagemailer.app/images/docs/send-an-email-3.png" alt="Email configuration and preview"class="max-h-80 max-w-[min(100%,36rem)] !mb-0 !mt-0 !rounded-md"
+ >
+ &lt;/a>&lt;figcaption>Email configuration and preview&lt;/figcaption>&lt;/figure>&lt;p>&lt;strong>Please refer to the annotated image, and read the following legend:&lt;/strong>&lt;/p></description></item><item><title>Google account</title><link>https://pagemailer.app/docs/basic-usage/google-account/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pagemailer.app/docs/basic-usage/google-account/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>You can connect a Google Account to send emails from. Please note than &lt;strong>Atlassian&lt;/strong> handles this connection, and &lt;strong>PageMailer&lt;/strong> will not have direct access to your Google account, and you can disconnect it at any point (see &lt;a href="#disconnecting-a-google-account">Disconnecting a Google account&lt;/a>).&lt;/p>
+&lt;h2 id="connecting-a-google-account">Connecting a Google account&lt;/h2>
+&lt;p>&lt;em>&lt;strong>Pre-requisite:&lt;/strong> follow the guide to &lt;a href="https://pagemailer.app/docs/basic-usage/send-an-email/">send an email&lt;/a> to know how to get to this screen.&lt;/em>&lt;/p>
+&lt;p>From within the &amp;ldquo;Send with PageMailer&amp;rdquo; modal, you should see a &lt;strong>Connect Google Account&lt;/strong> button.&lt;/p></description></item></channel></rss>

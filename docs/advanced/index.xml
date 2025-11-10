@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Advanced on PageMailer</title><link>https://pagemailer.app/docs/advanced/</link><description>Recent content in Advanced on PageMailer</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://pagemailer.app/docs/advanced/index.xml" rel="self" type="application/rss+xml"/><item><title>Custom HTML in templates</title><link>https://pagemailer.app/docs/advanced/custom-html/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pagemailer.app/docs/advanced/custom-html/</guid><description>&lt;p>&lt;em>To learn about template management, head to the documentation &lt;a href="https://pagemailer.app/docs/settings/templates/">page dedicated to templates&lt;/a>.&lt;/em>&lt;/p>
+&lt;h2 id="using-custom-html-in-a-template">Using custom HTML in a template&lt;/h2>
+&lt;blockquote>
+&lt;p>⚠️ This page is an advanced configuration option for PageMailer. You may want to refrain from using it if you are not familiar with HTML &amp;amp; CSS.&lt;/p>&lt;/blockquote>
+&lt;p>Within the modal to &lt;strong>Edit&lt;/strong> a template, scroll all the way down, and you will find this option:&lt;/p>
+&lt;figure class="flex flex-col items-center">
+ &lt;a href="https://pagemailer.app/images/docs/custom-html-button.png" target="_blank" class="flex flex-col items-center">
+ &lt;img src="https://pagemailer.app/images/docs/custom-html-button.png" alt="Option to enable custom HTML"class="max-h-80 max-w-[min(100%,36rem)] !mb-0 !mt-0 !rounded-md"
+ >
+ &lt;/a>&lt;figcaption>Option to enable custom HTML&lt;/figcaption>&lt;/figure>&lt;p>Once the option is enabled, you should see the following:&lt;/p></description></item><item><title>Confluence tips</title><link>https://pagemailer.app/docs/advanced/confluence-tips/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pagemailer.app/docs/advanced/confluence-tips/</guid><description>&lt;p>A few practical notes to help you get the most out of PageMailer when preparing content in Confluence intended to be sent as an email.&lt;/p>
+&lt;h2 id="turn-rich-links-into-regular-links">Turn rich links into regular links&lt;/h2>
+&lt;p>When pasting a link into a Confluence page, it will sometimes be turned into a rich link (or &lt;em>inline card&lt;/em> in Atlassian terms). PageMailer will
+be able to process most of these links when they are public or when they are links to other Confluence pages and blogs, but other Atlassian links such as
+Jira, Trello, StatusPage, etc. are not currently supported (see our &lt;a href="https://pagemailer.app/roadmap/">roadmap&lt;/a> for future support).&lt;/p></description></item><item><title>Supported macros</title><link>https://pagemailer.app/docs/advanced/macros/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pagemailer.app/docs/advanced/macros/</guid><description>&lt;h2 id="list-of-supported-confluence-macros">List of supported Confluence macros&lt;/h2>
+&lt;p>The style of Confluence pages is matched in most templates. Note that some templates override this style to change the default font or re-style panels (e.g. by removing the icon), and more.&lt;/p>
+&lt;table class="[&amp;_td]:align-middle [&amp;_img]:mt-2 [&amp;_img]:mb-2 [&amp;_img]:rounded-md">
+ &lt;thead>
+ &lt;tr>
+ &lt;th class="w-1/3">Macro&lt;/th>
+ &lt;th class="w-2/3">Preview&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Text, paragraphs and basic formatting&lt;/td>
+ &lt;td>&lt;img src="https://pagemailer.app/images/docs/macros/text.png" alt="Text" class="max-w-96" />&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Lists&lt;/td>
+ &lt;td class="flex flex-row gap-2">
+ &lt;img src="https://pagemailer.app/images/docs/macros/bullet-list.png" alt="Bullet list" class="max-w-40" />
+ &lt;img src="https://pagemailer.app/images/docs/macros/ordered-list.png" alt="Ordered list" class="max-w-40" />
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>User mentions (links to user profile)&lt;/td>
+ &lt;td>&lt;img src="https://pagemailer.app/images/docs/macros/mention.png" alt="Mention" class="max-w-28" />&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Task list&lt;/td>
+ &lt;td>&lt;img src="https://pagemailer.app/images/docs/macros/task-list.png" alt="Task list" class="max-w-40" />&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Blockquote&lt;/td>
+ &lt;td>&lt;img src="https://pagemailer.app/images/docs/macros/blockquote.png" alt="Blockquote" class="max-w-96" />&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Headings&lt;/td>
+ &lt;td>&lt;img src="https://pagemailer.app/images/docs/macros/headings.png" alt="Headings" class="max-w-32" />&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Date&lt;/td>
+ &lt;td>&lt;img src="https://pagemailer.app/images/docs/macros/date.png" alt="Date" class="max-w-28" />&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Panels (all colors and types supported)&lt;/td>
+ &lt;td>&lt;img src="https://pagemailer.app/images/docs/macros/panels.png" alt="Panels" />&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Code block&lt;/td>
+ &lt;td>&lt;img src="https://pagemailer.app/images/docs/macros/code-block.png" alt="Code block" />&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Decision list&lt;/td>
+ &lt;td>&lt;img src="https://pagemailer.app/images/docs/macros/decision-list.png" alt="Decision list" />&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Emojis&lt;/td>
+ &lt;td>&lt;img src="https://pagemailer.app/images/docs/macros/emojis.png" alt="Emojis" class="max-w-60" />&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Images (with optional caption support, see &lt;a href="https://pagemailer.app/docs/advanced/image-processing/">image processing&lt;/a> for more details)&lt;/td>
+ &lt;td>&lt;img src="https://pagemailer.app/images/docs/macros/image.png" alt="Image" />&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Layouts (using &lt;code>/layout&lt;/code>)&lt;/td>
+ &lt;td>&lt;img src="https://pagemailer.app/images/docs/macros/layouts.png" alt="Layouts" class="max-w-60" />&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Horizontal rule&lt;/td>
+ &lt;td>&lt;img src="https://pagemailer.app/images/docs/macros/rule.png" alt="Rule" />&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Status&lt;/td>
+ &lt;td>&lt;img src="https://pagemailer.app/images/docs/macros/statuses.png" alt="Statuses" class="max-w-80" />&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Table (supports column split/merge and background colors)&lt;/td>
+ &lt;td>&lt;img src="https://pagemailer.app/images/docs/macros/table.png" alt="Table" />&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Inline cards (rich links)&lt;/td>
+ &lt;td>&lt;img src="https://pagemailer.app/images/docs/macros/inline-card.png" alt="Inline card" class="max-w-96" />&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Block &amp;amp; embed cards (expanded links)&lt;/td>
+ &lt;td>&lt;img src="https://pagemailer.app/images/docs/macros/block-card.png" alt="Block card" />&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Expand (displays as open/expand in the email)&lt;/td>
+ &lt;td>&lt;img src="https://pagemailer.app/images/docs/macros/expand.png" alt="Expand" class="max-w-60" />&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Files (icon and name shown inline, and the file is added as attachment to the email)&lt;/td>
+ &lt;td>&lt;img src="https://pagemailer.app/images/docs/macros/files.png" alt="Files" class="max-w-24" />&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="list-of-unsupported-confluence-macros">List of unsupported Confluence macros&lt;/h2>
+&lt;p>We may eventually add support for some of what is detailed below, and we encourage you to check out our &lt;a href="https://pagemailer.app/roadmap/">roadmap&lt;/a> and share your
+&lt;a href="https://pagemailer.app/support/">feedback&lt;/a> to help us prioritize future changes.&lt;/p></description></item><item><title>Image processing</title><link>https://pagemailer.app/docs/advanced/image-processing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pagemailer.app/docs/advanced/image-processing/</guid><description>&lt;p>Upon processing Confluence pages to &lt;a href="https://pagemailer.app/docs/basic-usage/send-an-email">generate an email&lt;/a> or when &lt;a href="https://pagemailer.app/docs/settings/logos-socials/#logos">uploading logos&lt;/a>,
+PageMailer processes images through our &lt;strong>first-party API&lt;/strong>, which is hosted and owned by PageMailer. This API handles:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Compression&lt;/strong> of JPEG, PNG, and GIF files to reduce file size while maintaining quality.&lt;/li>
+&lt;li>&lt;strong>Conversion&lt;/strong> of SVG files to PNG format for consistent rendering across email clients.&lt;/li>
+&lt;li>&lt;strong>Resizing&lt;/strong> of images that exceed a certain width to ensure optimal display and reducing file size.&lt;/li>
+&lt;/ul>
+&lt;p>All image processing is performed securely and &lt;strong>in accordance with our &lt;a href="https://pagemailer.app/privacy/">Privacy Policy&lt;/a>&lt;/strong>. No third-party services are used for these operations, and your data remains within PageMailer&amp;rsquo;s or Atlassian&amp;rsquo;s infrastructure.&lt;/p></description></item></channel></rss>
